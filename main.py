@@ -7,5 +7,8 @@ for i in range(5):
     my_car.accelerate()
     print(f"Current Speed: {my_car.get_speed()}")
 
-
+print("\nBreaking")
+for i in range(5):
+    my_car.brake()
+    print(f"Current Speed: {my_car.get_speed()}")
 
